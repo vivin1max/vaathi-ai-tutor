@@ -1,0 +1,31 @@
+# Node and Next.js build/dependency folders
+node_modules/
+.next/
+
+# Python virtual environment
+.venv/
+
+# Ignore uploads and extracted data
+uploads/
+data/
+audio/
+out/
+ffmpeg.zip
+
+# Python cache
+*.pyc
+__pycache__/
+
+# Coverage / logs
+coverage/
+*.log
+
+# Mac/OS junk
+.DS_Store
+
+# Environment files
+.env
+
+# Ignore node_modules and .next in subfolders
+vox-study-ai-main/node_modules/
+vox-study-ai-main/.next/
